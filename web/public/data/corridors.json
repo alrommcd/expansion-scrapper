@@ -1,0 +1,863 @@
+[
+  {
+    "city_id": "pune",
+    "corridor": "Hinjewadi",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 7.6,
+    "sub_scores": {
+      "product_in_band": 0.58,
+      "demand_adjacent": 0.9,
+      "clean_title": 0.82,
+      "comp_density": 0.9167,
+      "resale_velocity": 0.5833
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.58,
+      "min_distance_to_demand_anchor_km": 0.8,
+      "rera_clean_pct": 0.82,
+      "comp_count_90d": 55,
+      "avg_dom_days": 38,
+      "resale_txn_count_90d": 40
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Wakad",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.9,
+    "sub_scores": {
+      "product_in_band": 0.62,
+      "demand_adjacent": 0.6875,
+      "clean_title": 0.85,
+      "comp_density": 0.8,
+      "resale_velocity": 0.5
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.62,
+      "min_distance_to_demand_anchor_km": 2.5,
+      "rera_clean_pct": 0.85,
+      "comp_count_90d": 48,
+      "avg_dom_days": 42,
+      "resale_txn_count_90d": 35
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Kharadi",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.9,
+    "sub_scores": {
+      "product_in_band": 0.55,
+      "demand_adjacent": 0.8125,
+      "clean_title": 0.8,
+      "comp_density": 0.8333,
+      "resale_velocity": 0.445
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.55,
+      "min_distance_to_demand_anchor_km": 1.5,
+      "rera_clean_pct": 0.8,
+      "comp_count_90d": 50,
+      "avg_dom_days": 45,
+      "resale_txn_count_90d": 32
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Magarpatta Road",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.5,
+    "sub_scores": {
+      "product_in_band": 0.35,
+      "demand_adjacent": 0.875,
+      "clean_title": 0.85,
+      "comp_density": 0.6667,
+      "resale_velocity": 0.5083
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.35,
+      "min_distance_to_demand_anchor_km": 1.0,
+      "rera_clean_pct": 0.85,
+      "comp_count_90d": 40,
+      "avg_dom_days": 35,
+      "resale_txn_count_90d": 30
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Hadapsar",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.0,
+    "sub_scores": {
+      "product_in_band": 0.5,
+      "demand_adjacent": 0.775,
+      "clean_title": 0.78,
+      "comp_density": 0.5833,
+      "resale_velocity": 0.38
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.5,
+      "min_distance_to_demand_anchor_km": 1.8,
+      "rera_clean_pct": 0.78,
+      "comp_count_90d": 35,
+      "avg_dom_days": 48,
+      "resale_txn_count_90d": 28
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Balewadi",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.5,
+    "sub_scores": {
+      "product_in_band": 0.48,
+      "demand_adjacent": 0.625,
+      "clean_title": 0.81,
+      "comp_density": 0.5,
+      "resale_velocity": 0.3567
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.48,
+      "min_distance_to_demand_anchor_km": 3.0,
+      "rera_clean_pct": 0.81,
+      "comp_count_90d": 30,
+      "avg_dom_days": 46,
+      "resale_txn_count_90d": 24
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Viman Nagar",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.5,
+    "sub_scores": {
+      "product_in_band": 0.45,
+      "demand_adjacent": 0.5625,
+      "clean_title": 0.8,
+      "comp_density": 0.5333,
+      "resale_velocity": 0.395
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.45,
+      "min_distance_to_demand_anchor_km": 3.5,
+      "rera_clean_pct": 0.8,
+      "comp_count_90d": 32,
+      "avg_dom_days": 45,
+      "resale_txn_count_90d": 27
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Baner",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.4,
+    "sub_scores": {
+      "product_in_band": 0.4,
+      "demand_adjacent": 0.5,
+      "clean_title": 0.83,
+      "comp_density": 0.6333,
+      "resale_velocity": 0.3333
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.4,
+      "min_distance_to_demand_anchor_km": 4.0,
+      "rera_clean_pct": 0.83,
+      "comp_count_90d": 38,
+      "avg_dom_days": 50,
+      "resale_txn_count_90d": 25
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Ambegaon",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "comp_density",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.68,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.65,
+      "comp_density": 0.3333,
+      "resale_velocity": 0.15
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.68,
+      "min_distance_to_demand_anchor_km": 11.0,
+      "rera_clean_pct": 0.65,
+      "comp_count_90d": 20,
+      "avg_dom_days": 75,
+      "resale_txn_count_90d": 15
+    }
+  },
+  {
+    "city_id": "pune",
+    "corridor": "Undri",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "comp_density",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.72,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.6,
+      "comp_density": 0.2833,
+      "resale_velocity": 0.1
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.72,
+      "min_distance_to_demand_anchor_km": 13.0,
+      "rera_clean_pct": 0.6,
+      "comp_count_90d": 17,
+      "avg_dom_days": 85,
+      "resale_txn_count_90d": 10
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Andheri East",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.8,
+    "sub_scores": {
+      "product_in_band": 0.4,
+      "demand_adjacent": 0.9,
+      "clean_title": 0.78,
+      "comp_density": 0.8333,
+      "resale_velocity": 0.5033
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.4,
+      "min_distance_to_demand_anchor_km": 0.8,
+      "rera_clean_pct": 0.78,
+      "comp_count_90d": 50,
+      "avg_dom_days": 38,
+      "resale_txn_count_90d": 32
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Powai",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.8,
+    "sub_scores": {
+      "product_in_band": 0.45,
+      "demand_adjacent": 0.9375,
+      "clean_title": 0.8,
+      "comp_density": 0.75,
+      "resale_velocity": 0.4667
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.45,
+      "min_distance_to_demand_anchor_km": 0.5,
+      "rera_clean_pct": 0.8,
+      "comp_count_90d": 45,
+      "avg_dom_days": 40,
+      "resale_txn_count_90d": 30
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Chembur",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 4.8,
+    "sub_scores": {
+      "product_in_band": 0.48,
+      "demand_adjacent": 0.25,
+      "clean_title": 0.77,
+      "comp_density": 0.55,
+      "resale_velocity": 0.34
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.48,
+      "min_distance_to_demand_anchor_km": 6.0,
+      "rera_clean_pct": 0.77,
+      "comp_count_90d": 33,
+      "avg_dom_days": 48,
+      "resale_txn_count_90d": 24
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Mulund",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.65,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.75,
+      "comp_density": 0.5,
+      "resale_velocity": 0.2617
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.65,
+      "min_distance_to_demand_anchor_km": 9.0,
+      "rera_clean_pct": 0.75,
+      "comp_count_90d": 30,
+      "avg_dom_days": 55,
+      "resale_txn_count_90d": 22
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Borivali",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.6,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.78,
+      "comp_density": 0.5333,
+      "resale_velocity": 0.2833
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.6,
+      "min_distance_to_demand_anchor_km": 10.0,
+      "rera_clean_pct": 0.78,
+      "comp_count_90d": 32,
+      "avg_dom_days": 50,
+      "resale_txn_count_90d": 20
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Kandivali",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "comp_density",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.55,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.7,
+      "comp_density": 0.3667,
+      "resale_velocity": 0.15
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.55,
+      "min_distance_to_demand_anchor_km": 12.0,
+      "rera_clean_pct": 0.7,
+      "comp_count_90d": 22,
+      "avg_dom_days": 65,
+      "resale_txn_count_90d": 15
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Goregaon",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.5,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.76,
+      "comp_density": 0.4667,
+      "resale_velocity": 0.2217
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.5,
+      "min_distance_to_demand_anchor_km": 8.5,
+      "rera_clean_pct": 0.76,
+      "comp_count_90d": 28,
+      "avg_dom_days": 55,
+      "resale_txn_count_90d": 18
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Malad",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "comp_density",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.52,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.68,
+      "comp_density": 0.3333,
+      "resale_velocity": 0.14
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.52,
+      "min_distance_to_demand_anchor_km": 11.0,
+      "rera_clean_pct": 0.68,
+      "comp_count_90d": 20,
+      "avg_dom_days": 68,
+      "resale_txn_count_90d": 14
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Bandra",
+    "eligible": false,
+    "failed_gates": [
+      "product_in_band"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.25,
+      "demand_adjacent": 0.75,
+      "clean_title": 0.85,
+      "comp_density": 0.7,
+      "resale_velocity": 0.4883
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.25,
+      "min_distance_to_demand_anchor_km": 2.0,
+      "rera_clean_pct": 0.85,
+      "comp_count_90d": 42,
+      "avg_dom_days": 35,
+      "resale_txn_count_90d": 28
+    }
+  },
+  {
+    "city_id": "mumbai",
+    "corridor": "Worli",
+    "eligible": false,
+    "failed_gates": [
+      "product_in_band"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.2,
+      "demand_adjacent": 0.625,
+      "clean_title": 0.88,
+      "comp_density": 0.5833,
+      "resale_velocity": 0.3667
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.2,
+      "min_distance_to_demand_anchor_km": 3.0,
+      "rera_clean_pct": 0.88,
+      "comp_count_90d": 35,
+      "avg_dom_days": 40,
+      "resale_txn_count_90d": 20
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Whitefield",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.9,
+    "sub_scores": {
+      "product_in_band": 0.5,
+      "demand_adjacent": 0.875,
+      "clean_title": 0.82,
+      "comp_density": 0.8,
+      "resale_velocity": 0.4667
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.5,
+      "min_distance_to_demand_anchor_km": 1.0,
+      "rera_clean_pct": 0.82,
+      "comp_count_90d": 48,
+      "avg_dom_days": 40,
+      "resale_txn_count_90d": 30
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Electronic City",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.8,
+    "sub_scores": {
+      "product_in_band": 0.55,
+      "demand_adjacent": 0.85,
+      "clean_title": 0.8,
+      "comp_density": 0.75,
+      "resale_velocity": 0.43
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.55,
+      "min_distance_to_demand_anchor_km": 1.2,
+      "rera_clean_pct": 0.8,
+      "comp_count_90d": 45,
+      "avg_dom_days": 42,
+      "resale_txn_count_90d": 28
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Marathahalli",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.2,
+    "sub_scores": {
+      "product_in_band": 0.48,
+      "demand_adjacent": 0.75,
+      "clean_title": 0.79,
+      "comp_density": 0.6667,
+      "resale_velocity": 0.3933
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.48,
+      "min_distance_to_demand_anchor_km": 2.0,
+      "rera_clean_pct": 0.79,
+      "comp_count_90d": 40,
+      "avg_dom_days": 44,
+      "resale_txn_count_90d": 26
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "HSR Layout",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.5,
+    "sub_scores": {
+      "product_in_band": 0.35,
+      "demand_adjacent": 0.5625,
+      "clean_title": 0.83,
+      "comp_density": 0.6333,
+      "resale_velocity": 0.39
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.35,
+      "min_distance_to_demand_anchor_km": 3.5,
+      "rera_clean_pct": 0.83,
+      "comp_count_90d": 38,
+      "avg_dom_days": 42,
+      "resale_txn_count_90d": 24
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Sarjapur",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.4,
+    "sub_scores": {
+      "product_in_band": 0.58,
+      "demand_adjacent": 0.4375,
+      "clean_title": 0.76,
+      "comp_density": 0.5833,
+      "resale_velocity": 0.32
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.58,
+      "min_distance_to_demand_anchor_km": 4.5,
+      "rera_clean_pct": 0.76,
+      "comp_count_90d": 35,
+      "avg_dom_days": 48,
+      "resale_txn_count_90d": 22
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Koramangala",
+    "eligible": false,
+    "failed_gates": [
+      "product_in_band"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.22,
+      "demand_adjacent": 0.375,
+      "clean_title": 0.85,
+      "comp_density": 0.6,
+      "resale_velocity": 0.3833
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.22,
+      "min_distance_to_demand_anchor_km": 5.0,
+      "rera_clean_pct": 0.85,
+      "comp_count_90d": 36,
+      "avg_dom_days": 38,
+      "resale_txn_count_90d": 20
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Hebbal",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.52,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.74,
+      "comp_density": 0.4667,
+      "resale_velocity": 0.1767
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.52,
+      "min_distance_to_demand_anchor_km": 9.0,
+      "rera_clean_pct": 0.74,
+      "comp_count_90d": 28,
+      "avg_dom_days": 58,
+      "resale_txn_count_90d": 16
+    }
+  },
+  {
+    "city_id": "bangalore",
+    "corridor": "Yelahanka",
+    "eligible": false,
+    "failed_gates": [
+      "demand_adjacent",
+      "clean_title",
+      "comp_density",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.6,
+      "demand_adjacent": 0.0,
+      "clean_title": 0.68,
+      "comp_density": 0.3333,
+      "resale_velocity": 0.12
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.6,
+      "min_distance_to_demand_anchor_km": 14.0,
+      "rera_clean_pct": 0.68,
+      "comp_count_90d": 20,
+      "avg_dom_days": 70,
+      "resale_txn_count_90d": 12
+    }
+  },
+  {
+    "city_id": "hyderabad",
+    "corridor": "Hitech City",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.9,
+    "sub_scores": {
+      "product_in_band": 0.42,
+      "demand_adjacent": 0.9375,
+      "clean_title": 0.83,
+      "comp_density": 0.7667,
+      "resale_velocity": 0.4833
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.42,
+      "min_distance_to_demand_anchor_km": 0.5,
+      "rera_clean_pct": 0.83,
+      "comp_count_90d": 46,
+      "avg_dom_days": 38,
+      "resale_txn_count_90d": 30
+    }
+  },
+  {
+    "city_id": "hyderabad",
+    "corridor": "Madhapur",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.6,
+    "sub_scores": {
+      "product_in_band": 0.4,
+      "demand_adjacent": 0.9,
+      "clean_title": 0.82,
+      "comp_density": 0.7333,
+      "resale_velocity": 0.4467
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.4,
+      "min_distance_to_demand_anchor_km": 0.8,
+      "rera_clean_pct": 0.82,
+      "comp_count_90d": 44,
+      "avg_dom_days": 40,
+      "resale_txn_count_90d": 28
+    }
+  },
+  {
+    "city_id": "hyderabad",
+    "corridor": "Gachibowli",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.6,
+    "sub_scores": {
+      "product_in_band": 0.48,
+      "demand_adjacent": 0.875,
+      "clean_title": 0.81,
+      "comp_density": 0.7,
+      "resale_velocity": 0.41
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.48,
+      "min_distance_to_demand_anchor_km": 1.0,
+      "rera_clean_pct": 0.81,
+      "comp_count_90d": 42,
+      "avg_dom_days": 42,
+      "resale_txn_count_90d": 26
+    }
+  },
+  {
+    "city_id": "hyderabad",
+    "corridor": "Kondapur",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.9,
+    "sub_scores": {
+      "product_in_band": 0.55,
+      "demand_adjacent": 0.6875,
+      "clean_title": 0.79,
+      "comp_density": 0.6,
+      "resale_velocity": 0.3367
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.55,
+      "min_distance_to_demand_anchor_km": 2.5,
+      "rera_clean_pct": 0.79,
+      "comp_count_90d": 36,
+      "avg_dom_days": 46,
+      "resale_txn_count_90d": 22
+    }
+  },
+  {
+    "city_id": "hyderabad",
+    "corridor": "Kukatpally",
+    "eligible": false,
+    "failed_gates": [
+      "clean_title",
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.58,
+      "demand_adjacent": 0.0625,
+      "clean_title": 0.73,
+      "comp_density": 0.4333,
+      "resale_velocity": 0.1933
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.58,
+      "min_distance_to_demand_anchor_km": 7.5,
+      "rera_clean_pct": 0.73,
+      "comp_count_90d": 26,
+      "avg_dom_days": 56,
+      "resale_txn_count_90d": 16
+    }
+  },
+  {
+    "city_id": "chennai",
+    "corridor": "OMR",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.7,
+    "sub_scores": {
+      "product_in_band": 0.5,
+      "demand_adjacent": 0.875,
+      "clean_title": 0.8,
+      "comp_density": 0.7333,
+      "resale_velocity": 0.4467
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.5,
+      "min_distance_to_demand_anchor_km": 1.0,
+      "rera_clean_pct": 0.8,
+      "comp_count_90d": 44,
+      "avg_dom_days": 40,
+      "resale_txn_count_90d": 28
+    }
+  },
+  {
+    "city_id": "chennai",
+    "corridor": "Sholinganallur",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 6.4,
+    "sub_scores": {
+      "product_in_band": 0.52,
+      "demand_adjacent": 0.8125,
+      "clean_title": 0.79,
+      "comp_density": 0.6667,
+      "resale_velocity": 0.41
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.52,
+      "min_distance_to_demand_anchor_km": 1.5,
+      "rera_clean_pct": 0.79,
+      "comp_count_90d": 40,
+      "avg_dom_days": 42,
+      "resale_txn_count_90d": 26
+    }
+  },
+  {
+    "city_id": "chennai",
+    "corridor": "Perungudi",
+    "eligible": true,
+    "failed_gates": [],
+    "fit_score": 5.7,
+    "sub_scores": {
+      "product_in_band": 0.45,
+      "demand_adjacent": 0.625,
+      "clean_title": 0.81,
+      "comp_density": 0.6,
+      "resale_velocity": 0.3733
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.45,
+      "min_distance_to_demand_anchor_km": 3.0,
+      "rera_clean_pct": 0.81,
+      "comp_count_90d": 36,
+      "avg_dom_days": 44,
+      "resale_txn_count_90d": 24
+    }
+  },
+  {
+    "city_id": "chennai",
+    "corridor": "Siruseri",
+    "eligible": false,
+    "failed_gates": [
+      "resale_velocity"
+    ],
+    "fit_score": null,
+    "sub_scores": {
+      "product_in_band": 0.6,
+      "demand_adjacent": 0.25,
+      "clean_title": 0.76,
+      "comp_density": 0.4667,
+      "resale_velocity": 0.2467
+    },
+    "raw_metrics": {
+      "pct_units_in_band": 0.6,
+      "min_distance_to_demand_anchor_km": 6.0,
+      "rera_clean_pct": 0.76,
+      "comp_count_90d": 28,
+      "avg_dom_days": 52,
+      "resale_txn_count_90d": 18
+    }
+  }
+]

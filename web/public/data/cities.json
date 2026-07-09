@@ -1,0 +1,37 @@
+[
+  {
+    "city_id": "pune",
+    "city_name": "Pune",
+    "state": "Maharashtra",
+    "corridor_count": 10,
+    "has_price_band": true
+  },
+  {
+    "city_id": "mumbai",
+    "city_name": "Mumbai",
+    "state": "Maharashtra",
+    "corridor_count": 10,
+    "has_price_band": true
+  },
+  {
+    "city_id": "bangalore",
+    "city_name": "Bangalore",
+    "state": "Karnataka",
+    "corridor_count": 8,
+    "has_price_band": true
+  },
+  {
+    "city_id": "hyderabad",
+    "city_name": "Hyderabad",
+    "state": "Telangana",
+    "corridor_count": 5,
+    "has_price_band": true
+  },
+  {
+    "city_id": "chennai",
+    "city_name": "Chennai",
+    "state": "Tamil Nadu",
+    "corridor_count": 4,
+    "has_price_band": true
+  }
+]

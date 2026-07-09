@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Clash Display", "Satoshi", sans-serif;
+  --font-body: "Satoshi", "Clash Display", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* 2026-07-06 "intelligence terminal" re-skin: true black + a single neon
+     accent, fully renamed off violet/indigo (2026-07-06, follow-up pass -
+     the initial values-only swap left the token KEYS still reading
+     "violet"/"indigo", which is what the grep sweep caught). */
+  --color-void: #050505;
+  --color-void-soft: #0a0a0a;
+  --color-surface: #0f0f0f;
+  --color-surface-hi: #171717;
+  --color-line: rgba(255, 255, 255, 0.07);
+  --color-line-hi: rgba(255, 255, 255, 0.16);
+
+  /* accent-300 = the lightest step - text sitting on a tinted accent
+     background (badges, pills), where accent-400 alone would be too dim. */
+  --color-accent-300: #9fe8b8;
+  /* accent-400 = the DIM/desaturated step - general icons, secondary text
+     accents, anything that is NOT the one focal element on a screen. */
+  --color-accent-400: #6fae7f;
+  /* accent-500 = the PRIMARY accent - links, fills, buttons, most uses. */
+  --color-accent-500: #39ff88;
+  /* accent-600 = a deeper step for pressed/hover states. */
+  --color-accent-600: #22c96b;
+  /* accent-900 = a near-black green, for low-opacity glow shadows only -
+     kept deliberately dark so the "cut glow in half" restraint holds even
+     before the /opacity suffix is applied. */
+  --color-accent-900: #0d2818;
+  /* amber stays genuine amber - reserved for warning/caution status only
+     (e.g. "no price band configured"), never reused as the brand accent,
+     so a real caution state is never confused with decorative green. */
+  --color-amber-300: #fbc373;
+  --color-amber-400: #f4a340;
+  --color-amber-500: #e8912a;
+  /* the single BRIGHTEST/most-saturated step, reserved for whatever is the
+     one focal/active element on a given screen (current score value, the
+     active nav item, the searched city marker) - never repeated elsewhere
+     on the same screen at this same intensity. */
+  --color-accent-bright: #39ff14;
+
+  --color-text-hi: #f2f5f2;
+  --color-text-lo: #8a938a;
+  --color-text-faint: #55594f;
+
+  /* Score-kind colors consolidated to the single accent (2026-07-06) - a
+     brand with one sparing accent color can't also carry 3 distinct hues
+     for corridor/society/broker; kind is still fully distinguished by each
+     ScoreRing's text label (Fit / Society fit / Activity), never by color
+     alone even before this change (see ScoreRing.tsx). */
+  --color-signal-corridor: #39ff88;
+  --color-signal-society: #39ff88;
+  --color-signal-broker: #39ff88;
+}
+
+/* Tailwind v4 auto-generates a built-in purple utility scale from the
+   framework's OWN built-in defaults for any shade this file doesn't
+   override - several call sites used exactly those un-overridden shades,
+   which stayed genuinely purple even after the initial values-only reskin.
+   Renaming the theme keys above to accent-prefixed names and updating
+   every call site (2026-07-06 grep-driven fix pass) removes the risk
+   instead of chasing individual shades one at a time. */
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+
+  html {
+    background: var(--color-void);
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    background: var(--color-void);
+    color: var(--color-text-hi);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--color-accent-500);
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-surface-hi);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent-600);
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.015));
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--color-line);
+  }
+
+  .glass-hi {
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.02));
+    backdrop-filter: blur(24px);
+    border: 1px solid var(--color-line-hi);
+  }
+
+  /* Solid, not a gradient - the reference brief's "one emphasized word in
+     the green accent, rest in white" is a flat color swap, not a blend
+     between hues (there's only one hue now). Name kept for the same
+     minimal-diff reason as the theme tokens above. */
+  .text-gradient-violet {
+    color: var(--color-accent-bright);
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_comment": "Manually curated, not exported by the Python engine. Keys are exact-match names, namespaced by hierarchy to avoid cross-city collisions ('City', 'City::Corridor', 'City::Corridor::Society'). No entry for a name = PlaceholderTile fallback, which is the honest default, not an error state. Add an image: drop the file in web/public/assets/images/ and add its path here. See DECISIONS.md for why there is no live scraping/hotlinking of real-estate photos. Any entry marked illustrative in _meta is generic stock, not a real photo of that specific place - see that entry's note before treating it as depicting the real city/corridor/society. See PROGRESS.md's image slot table for what's still wanted before showtime. The hero landing image is NOT in this manifest - it's a single fixed asset (web/public/assets/images/hero-towers-dusk.jpg), not an entity lookup, so it's referenced directly in Home.tsx.",
+  "cities": {
+    "Pune": "/assets/images/pune-aerial-illustrative.jpg",
+    "Mumbai": "/assets/images/mumbai-gateway-of-india.jpg",
+    "Bangalore": "/assets/images/bangalore-vidhana-soudha.jpg",
+    "Hyderabad": "/assets/images/hyderabad-charminar.jpg",
+    "Chennai": "/assets/images/chennai-marina-beach.jpg"
+  },
+  "corridors": {
+    "Pune::Hinjewadi": "/assets/images/hinjewadi-it-park-illustrative.jpg"
+  },
+  "societies": {
+    "Pune::Hinjewadi::Godrej Elements": "/assets/images/godrej-elements-illustrative.jpg"
+  },
+  "_meta": {
+    "cities": {
+      "Pune": {
+        "illustrative": true,
+        "note": "Generic Unsplash aerial-urban-area stock photo. The site's own search context surfaced it under a 'Pune' tag, but the photo's own title is generic ('aerial view of urban area') and we have not independently verified it actually depicts Pune. Treat as an atmosphere shot only, not proof of place, until a real Pune photo replaces it.",
+        "attribution": "Photo by Anand Dhumal on Unsplash (https://unsplash.com/photos/stfokPzxn-M)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      },
+      "Mumbai": {
+        "illustrative": false,
+        "note": "Confirmed genuine: caption 'View of the Gateway of India from the sea', location-tagged Mumbai, Maharashtra, India. A real, verified photo of the actual landmark, not generic stock.",
+        "attribution": "Photo by Renzo D'souza on Unsplash (https://unsplash.com/photos/MxabbMSLr_M)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      },
+      "Bangalore": {
+        "illustrative": false,
+        "note": "Confirmed genuine: location-tagged 'Vidhana Soudha Layout, Bengaluru, India', tags include vidhana soudha/bengaluru. A real, verified photo of the actual landmark building (Karnataka's state legislature), not generic stock.",
+        "attribution": "Photo by Arif Khan on Unsplash (https://unsplash.com/photos/qI97C620KMg)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      },
+      "Hyderabad": {
+        "illustrative": false,
+        "note": "Confirmed genuine: caption and location tag 'Charminar (Old City), Hyderabad, Telangana, India'. A real, verified photo of the actual monument, not generic stock.",
+        "attribution": "Photo by Sunny on Unsplash (https://unsplash.com/photos/LDYbI5R6vaM)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      },
+      "Chennai": {
+        "illustrative": false,
+        "note": "Confirmed genuine: location-tagged Chennai, Tamil Nadu, India, tags include 'marina beach chennai'. An aerial cityscape/coastline view near Marina Beach, not a close-up of the lighthouse specifically - still a real, verified Chennai photo, not generic stock.",
+        "attribution": "Photo by Karthick Gislen on Unsplash (https://unsplash.com/photos/Ylw1zy8lUVw)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      }
+    },
+    "corridors": {
+      "Pune::Hinjewadi": {
+        "illustrative": true,
+        "note": "Generic stock photo of a glass-facade office building, not an actual photograph of Hinjewadi. Used to prove the image hit-path renders correctly, and as a stand-in atmosphere shot until a real Hinjewadi photo replaces it. Never present as 'this is Hinjewadi'.",
+        "attribution": "Photo by Declan Sun on Unsplash (https://unsplash.com/photos/8uYWx4Ta-mA)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      }
+    },
+    "societies": {
+      "Pune::Hinjewadi::Godrej Elements": {
+        "illustrative": true,
+        "note": "Generic Unsplash apartment-building stock photo. This is NOT a photo of the real Godrej Elements project - we have no rights to Godrej Properties' own marketing photography, and this image should never be captioned or implied as depicting that specific building. Stand-in only, to prove the society-level hit path renders, until a real rights-cleared photo (developer press kit or Mesa's own photo) replaces it.",
+        "attribution": "Photo by Daniel Reis on Unsplash (https://unsplash.com/photos/E8fqapcvz2Y)",
+        "license": "Unsplash License (free for commercial use, no attribution legally required) - https://unsplash.com/license, terms checked 2026-07-06"
+      }
+    }
+  }
+}

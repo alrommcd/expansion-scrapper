@@ -1,0 +1,49 @@
+{
+  "pune": [
+    "Hinjewadi",
+    "Wakad",
+    "Baner",
+    "Kharadi",
+    "Hadapsar",
+    "Magarpatta Road",
+    "Viman Nagar",
+    "Balewadi",
+    "Ambegaon",
+    "Undri"
+  ],
+  "mumbai": [
+    "Powai",
+    "Andheri East",
+    "Mulund",
+    "Borivali",
+    "Kandivali",
+    "Goregaon",
+    "Malad",
+    "Bandra",
+    "Worli",
+    "Chembur"
+  ],
+  "bangalore": [
+    "Whitefield",
+    "Sarjapur",
+    "Electronic City",
+    "Hebbal",
+    "Marathahalli",
+    "HSR Layout",
+    "Koramangala",
+    "Yelahanka"
+  ],
+  "hyderabad": [
+    "Hitech City",
+    "Madhapur",
+    "Gachibowli",
+    "Kondapur",
+    "Kukatpally"
+  ],
+  "chennai": [
+    "OMR",
+    "Sholinganallur",
+    "Siruseri",
+    "Perungudi"
+  ]
+}
